@@ -1,0 +1,9 @@
+
+.ban {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px; /* Reduce margin */
+    max-height: 40vh; /* Maximum height for the BanList section */
+    overflow-y: auto; /* Enable vertical scrollbar if content exceeds max height */
+  }

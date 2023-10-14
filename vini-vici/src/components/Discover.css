@@ -1,0 +1,79 @@
+.body {
+    flex-grow: 1; /* Take up available space */
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px; /* Reduce margin */
+    min-height: 50vh; /* Minimum height for the Discover section */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.temperament {
+    font-size: 18px;
+    color: #333;
+    background-color: rgba(255, 233, 233, 0.6); /* Light red with transparency */
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.weight {
+    font-size: 18px;
+    color: #333;
+    background-color: rgba(233, 255, 233, 0.6); /* Light green with transparency */
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.origin {
+    font-size: 18px;
+    color: #333;
+    background-color: rgba(233, 233, 255, 0.6); /* Light blue with transparency */
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.life {
+    font-size: 18px;
+    color: #333;
+    background-color: rgba(255, 255, 233, 0.6); /* Light yellow with transparency */
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.Discover button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Discover button:hover {
+    background-color: #555;
+}
